@@ -2,13 +2,24 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Uu]ser[Ss]ettings/
+# 라이브러리 폴더
+unity/unitydemoweb/[Ll]ibrary/
+
+# 임시 폴더
+unity/unitydemoweb/[Tt]emp/
+
+# 빌드 폴더
+unity/unitydemoweb/[Bb]uild/
+unity/unitydemoweb/[Bb]uilds/
+
+# 오브젝트 파일
+unity/unitydemoweb/[Oo]bj/
+
+# 로그 폴더
+unity/unitydemoweb/[Ll]ogs/
+
+# 사용자 설정 폴더
+unity/unitydemoweb/[Uu]ser[Ss]ettings/
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
